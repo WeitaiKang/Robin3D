@@ -8,7 +8,7 @@ We present Robin3D, a state-of-the-art 3D Large Language Model trained on our Ro
 
 ## 🔥 Robin3D vs Previous Methods
 
-![performance](https://github.com/WeitaiKang/Robin3D/assets/performance.png)
+![performance](assets/performance.png)
 
 ## 🔨 Preparation
 
