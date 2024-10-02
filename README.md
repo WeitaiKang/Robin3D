@@ -4,7 +4,7 @@ We present Robin3D, a state-of-the-art 3D Large Language Model trained on large-
 
 ## News
 
-**[2024.09]** We release Robin3D [[code](https://github.com/WeitaiKang/Robin3D)], a new SOTA 3D LLM for 3D scenes.
+**[2024.09]** We release Robin3D [[paper](https://arxiv.org/pdf/2410.00255)][[code](https://github.com/WeitaiKang/Robin3D)], a new SOTA 3D LLM for 3D scenes.
 
 ## 🔥 Robin3D vs Previous Methods
 
