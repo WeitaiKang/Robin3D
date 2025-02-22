@@ -40,11 +40,14 @@ Our paper has disappeared from Google Scholar, and we don't know why. We have em
 
 If you find our work useful in your research, please consider citing:
 ```
-@article{kang2024intent3d,
-  title={Intent3D: 3D Object Detection in RGB-D Scans Based on Human Intention},
-  author={Kang, Weitai and Qu, Mengxue and Kini, Jyoti and Wei, Yunchao and Shah, Mubarak and Yan, Yan},
-  journal={arXiv preprint arXiv:2405.18295},
-  year={2024}
+@misc{kang2025robin3dimproving3dlarge,
+      title={Robin3D: Improving 3D Large Language Model via Robust Instruction Tuning}, 
+      author={Weitai Kang and Haifeng Huang and Yuzhang Shang and Mubarak Shah and Yan Yan},
+      year={2025},
+      eprint={2410.00255},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2410.00255}, 
 }
 ```
 
