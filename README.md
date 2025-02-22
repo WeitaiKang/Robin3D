@@ -36,11 +36,21 @@ We present Robin3D, a state-of-the-art 3D Large Language Model trained on large-
 
 ## 📄 Citation
 
-- Coming soon.
+Our paper has disappeared from Google Scholar, and we don't know why. We have emailed the Google Scholar team but have not received a response yet.
+
+If you find our work useful in your research, please consider citing:
+```
+@article{kang2024intent3d,
+  title={Intent3D: 3D Object Detection in RGB-D Scans Based on Human Intention},
+  author={Kang, Weitai and Qu, Mengxue and Kini, Jyoti and Wei, Yunchao and Shah, Mubarak and Yan, Yan},
+  journal={arXiv preprint arXiv:2405.18295},
+  year={2024}
+}
+```
 
 Stay tuned for our project. 🔥
 
-If you have any questions or suggestions, feel free to drop us an email (`wkang11@hawk.iit.edu`) or open an issue.
+If you have any questions or suggestions, feel free to drop us an email (`k13711752197@gmail.com`) or open an issue.
 
 ## 😊 Acknowledgement
 
