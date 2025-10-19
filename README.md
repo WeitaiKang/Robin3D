@@ -58,6 +58,7 @@ This is an official repo for paper "Robin3D: Improving 3D Large Language Model v
     ```
     bash scripts/run_stage2.sh 
     ```
+  For each stage, we set the epoch as 3 but we manually stop the training after 2 epochs.
 
 - Evaluate
   
