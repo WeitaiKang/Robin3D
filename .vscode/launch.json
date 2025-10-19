@@ -1,0 +1,52 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Train Script Debug",
+            "type": "python",
+            "request": "launch",
+            "program": "tasks/train.py",
+            "args": [
+                "scripts/config.py",
+                "output_dir", "/data/kangweitai/3D/project/chat3d/tmp",
+                "scheduler.epochs", "3",
+                "optimizer.lr", "5e-6",
+                "model.add_scene_token", "False",
+                "pretrained_path", "/data/kangweitai/3D/project/chat3d/tmp/ckpt_00.pth",
+                "evaluate", "True",
+                "wandb.enable", "False",
+                "gpu_num", "1",
+                "do_save", "False",
+                "batch_size", "1",
+                "model.train_emb", "True",
+                "model.train_img_proj", "True",
+                "train_tag", "scanrefer",
+                "val_tag", "scanrefer",
+                "model.input_dim", "1024",
+                "model.img_input_dim", "1536", 
+                "model.add_mask3d_token", "True",
+                "model.bidirection", "False",
+                "optimizer.different_lr.enable", "False",
+                "model.max_obj_num", "150",
+                "lora.lora_r", "16",
+                "lora.lora_alpha", "16",
+                "model.add_pos_emb", "False",
+                "model.feat_fusion", "False",
+                "optimizer.max_grad_norm", "-1",
+                "seed", "42",
+                "do_eval_during_train", "True",
+                "resume", "False",
+                "model.add_objlabel", "False",
+            ],
+            "python": "/home/kangweitai/anaconda3/envs/chat3d-cuda18/bin/python",
+            "env": {
+                "MASTER_PORT": "54000",
+                "NCCL_P2P_DISABLE": "1",
+                "NCCL_IB_DISABLE": "1",
+                "CUDA_VISIBLE_DEVICES": "7"
+            },
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

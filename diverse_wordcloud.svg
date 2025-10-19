@@ -1,0 +1,669 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
+<style>@font-face{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;src:url("data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAAxEAAsAAAAAD0QAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABeAAAAFIAAABge8FWPWNtYXAAAAIgAAAAXgAAAHwCEQIDZ2FzcAAADDgAAAAMAAAADAAEAAdnbHlmAAAC1AAACH8AAAr0XKq7Z2hlYWQAAAEIAAAANgAAADYJEZUDaGhlYQAAAUAAAAAgAAAAJAw9AuhobXR4AAABzAAAAFIAAABSEaEKwWxvY2EAAAKAAAAAUgAAAFI1sDMUbWF4cAAAAWAAAAAYAAAAIAAsADhuYW1lAAALVAAAAMsAAAFoHBo1AHBvc3QAAAwgAAAAFgAAACD/aQBnAAEAAAABAACYlbRnXw889QALCAAAAAAAwcfpVAAAAADjXWJ+//z+FATRBh8AAAAJAAIAAAAAAAB4nGNgZGBgz/0ny8DAcvb/n/9/WC4yAEVQACMArNsHL3icY2BkYGDQYDBnYGYAAUYGNAAACiwAZXicY2BmOcs4gYGVgYN1FqsxAwOjHIRmvsCQxviJgYGJm42TmYOFiYmFASjJgAQMHYOdGRwY1Bmq2OT/iTC0sOcyPoapYfFi3QakFBgYAEbTC8YAAATNAMEB8AAhAIcA9ADhAOkAcQCwAI0AZgB9ACEAIQCHAJ4ArACJAIUAnABmAKAAxQCHANcAvABcAKAAcwCeAIkBCADLAIsAoABS//wAYABSALYAAHicY2BgYGJgYGAGYhEgyQimWRgygLQYgwBQhI1BncGRwYXBjcGTwZchgCGMIZKh6v9/oDxC3AcoHgwUT/z///+t/wf/7/+/7/+e/7v+7/i/7f+W/2vBpmIBABteHAIAAAAAAAAADwAyAFQAaQCDAJIAtwDZAQoBHAE7AVUBbAGgAdAB9gInAlMCeALGAuYDCQMwA1EDaAOYA7YD3wQQBEEEXwSOBLEE0ATrBRsFOgVjBXoAAHicXVYNUBTnGd732729CzJyx+3dlaIDy+a4oYSxcBxXTfGnaqsEU8sgoY6lqEgUOkbBxCEXBqlzEkocRQiiRqtI0YkGf4bsqBAjc+JPGKWMWlOdlFiKGRKqjCVK4Paz77eHSjvcH7P7Pt/zvt/zPN9yAMN8C/nKoHI8xwGv8OSrhH0JBlUbJmaOI5zMccJxQwdn5KZynMzLvAJuAD7eJRp5fmgnte06D/0BGKA+v8sh/XgndNFXDR1jC0gRHH2vcHU2TWIoVYjiwzVMXATHuS1yLGcxI5rFHWsxy1WQA+mwku6iR0ryiUStBpVuo5/Q3XSLwTFeTeaTVKTGjSBGOmK8hDwUi2yT2Rtaz/GLtY1knbbboDZrwWZ25z2O4wfxzil4p+xxWpwe2WawGPjB4Ci46N95E70D8T5JaJR8Pml8rcRqBhE9BmsMjB8ytA22E2Q8NtzCrm7EqyvwqhURQYm0WRSL24p/+J1qVQBJf2uK3P1kVBwL7plqogMGjj7+INhgUMdzhaNjGfzmQpDHCZvESUT6pd6FBYGxXo61SILscqekecyyAkXnoJ4Q+h0d/fzjS8do61UyU7uMA8m++/jAzj3gYGy2Px0S5hi6uRiO83rs7lhParwrPt6T+rI7xWGMV2Jtkt1ht9skQYndfqMb8rbf/uunAF8PtM/tPELvbr32+C/0u6f0SfLpnOG1G5Ys7m5q7Xq9+fXewvd+ldted+EurlCILAuQpTE0a5yfTALtNI+n9PeGyGZ9yuXIYqnhDNMFWMxEibXg3MxyrNUiLA2O0OnnUCgug+FMMJMG6RCZxrcGV9By8PN6dUhXKheG/7iBicruSPPyA5epo51GXQRXwoyY2Tj/DIMaXFnRUxuYqPlYVxEHWIDDAzcpgPKrNApruskN0h/cql0mM/gqpjnkR4Q8zsHqZJciikpcvMfs9HpSlTijK82dYrdZeKMo2iQ2fL7CaVrStOXwWaDdI3WfzrnY3t/d1nSx+UrdicaVrx3fB5lm48KhrOr81guamUQZTcXrTx+ux3UO4DoLRImL5KZxnFMxojQsktGN+JFsLHG8ZNdlHidCdrjTr5pMxbevDty/0lNa0whm+mDftpoaUaLv/6a2md6iI/QRvUFe7e+EFjjQwSZ1HPGd2AdqD9juIlSK1yYqIQ+lCM7ZDe/Q7bBuf/O2AH1K/wVxYDwtKAdm0tW0aPbBdByuGaIgnqmvGrFm6FynM644EWIxR6Js3PEepK3wKKXQCml8pWljL+N5fVN4uFqn1DTSYYhs9NcdgUQIh6mQdLBShrYfhmAsob+TLqerTrEV/LjCImRr4ezIV44McY1jXHEgNqeMChEWBcdMsDRwouXS92jFiP6bWpCSdDpM/43Sr848+BouIUIYeOlInwLJbAof4d4vF2M4G0NltvE4PalpIcHHiTabLEjUp9IApLf1VvoS1r7py0WpdQbn8J3r5fzOVmXHtILStRgMXCGVhEJk+DL3CpeGaDYjWgUpupgQmChwq9BMXv0dH1qET2GisUnAPmRmOKHw4rxb570xBYfaW89o3Xf6h/P9vy281ZUzd2/fvXuwsOM+REBNgZCxMXrZlkOfiz9bkr13B606VHtz1oziDUudx9aoXZLWcf/ho34afqm1LzeddXkQu0zC/cFskC1mZimmJiYm/MlvfkCvqaop7M1B8JMACLREu4zKSdl5lL6ludn0u7DeLU5Fh0QiXIrelyfVigFoMdhwZKSsaE5icQT9DwQgP7gLcsWpJbNmlpZox22+4EIWh3paU4nPQRQj5wihMBDApEGbsDC1MFjyTXFxEQ3btu/trXQFWf7P682IVVpaMpqw11WyRphp843Pa2OuvY2cUOB6TnjZ4aGAUW+Lh4oqqPkHjSRht2hOZVubmSQ0QjV1arUwmkWXi5KWRvsQAW0gJCICJj+8aEWiI3oXtZBr8NveHfPp9IFbgXeX4v7Gshmm6urA5cwT324Hc6b+wezf65n9xq8PlWcvaqqIDpu/7XCKmLljyyYS2FXSEtCa2JD//FC7LGTUH1XVs1/ikCf2CPHNk/fIMXmL6qL/Z4tYtb5BhCtFd+Ri7RTmZsOEK9ini5kO32TVl3QQIu7fATt98DWk0Su0W8KxCWCEn9Iv0N9P6PXd0AwHaT5dwdIH1bwAESccbX/R40T62CbHDxo52rT+5uT4afTXVMo0UUxDks/ipyAhlD8n9czAFWY8WwHcXv3Q877IDuukzCgzRdep4eGh4GArhDKDV+t/+AJuJVQ+zw7to+ehAYB5LiihiYIxftJGYReCkuxbc/iUWm83ZbZWvCMktySdPaGdFDKubi5kjumeSPn/PwufRcOzsxDpdneeAuuqU4NlfV2Xjv1crR5ao96o+fZvo8ktOU0zs+e+Ubv6/X0ZHy7ypy+et+TDPzQcQ/Qahm54i+2Wk0WuheWO1a0/feCpwQf/+C5toN/DlCXrQKUZF37X8KdYyCXleckQQ+9Wa1sDuqsRJUnI0F2N59DESam7CV2wNzps3QAtU4cO1asYrrXkmpZOg2dvklnjKqvOwumUYTV7mgG31Y5zsVrRRo9ofsfwsgjRmPfwM5ovZGibvsl7BaLIB1gGT4NY1YtVUeypDR/r8BWq9Vqff/N80tYF4ryqz/qaVsU5xBinv7Mi8UdizPTCA/dINmTQ02zQ2r1zPWc/Ib/QzgcOP9pNYkKs8hG/KMSKncUhX+OL0s09eAIpPfRt2H8dFXu1h7iJgxbCXm1QuwZtNJP1hJpiPeEZYWUnv04H2Ant0mPG683qADHLKDrmY3PO+af352TNzsgv/sks5FNybdmGNmzT1XrCUhueVdDA+CApQULEl/RnPmCPLIBnQrCJ1Gvb+UStjOwp5xdU7wr2cv8FIjpnwgB4nH2OQQ7BUBRFD4qYWICB/AUgisRYSIxMSAzMqqSaSCvFgAVYgU3YiQVZgNvvS4ykuc1979133geqrChR8GrATvr4Ak1VH1+kzs35EgPuzns/mTItns5XaPBiQkwknaQrWzYYKVAdyIWkHLiQ2dROXcND6tHVNxTNMFUm1XSvbcNYPtNO/g8sNSWhozuZXGz5C00SjnIzO02ZazfiLEag3EizUJ1E6a1qQ1v6T1ja5NHdM/i6mb/RsBY3Fnljuz79H9KX4yhvK1I1NwB4nGNgZgCD/2kMaUCKkQENAAAp/gHQAAAAAAACAAUAAv//AAM=")format("woff");}</style>
+<style>text{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;}</style>
+<rect width="100%" height="100%" style="fill:white"></rect>
+<text transform="translate(101,146)" font-size="155" style="fill:rgb(71, 42, 122)">object</text>
+<text transform="translate(5,312)" font-size="120" style="fill:rgb(39, 128, 142)">description</text>
+<text transform="translate(467,397)" font-size="100" style="fill:rgb(186, 222, 40)">Share</text>
+<text transform="translate(724,181) rotate(-90)" font-size="100" style="fill:rgb(124, 210, 80)">fit</text>
+<text transform="translate(15,389)" font-size="100" style="fill:rgb(184, 222, 41)">best</text>
+<text transform="translate(12,216)" font-size="83" style="fill:rgb(194, 223, 35)">chair</text>
+<text transform="translate(429,212)" font-size="71" style="fill:rgb(52, 97, 141)">table</text>
+<text transform="translate(379,58)" font-size="70" style="fill:rgb(38, 129, 142)">white</text>
+<text transform="translate(229,370)" font-size="37" style="fill:rgb(94, 201, 98)">surrounding</text>
+<text transform="translate(694,245)" font-size="35" style="fill:rgb(51, 98, 141)">door</text>
+<text transform="translate(1,48)" font-size="33" style="fill:rgb(70, 192, 111)">positioned</text>
+<text transform="translate(277,208)" font-size="33" style="fill:rgb(71, 44, 122)">prove</text>
+<text transform="translate(301,397)" font-size="33" style="fill:rgb(71, 16, 99)">cabinet</text>
+<text transform="translate(564,338)" font-size="33" style="fill:rgb(42, 120, 142)">situated</text>
+<text transform="translate(2,114)" font-size="32" style="fill:rgb(53, 183, 121)">right</text>
+<text transform="translate(20,73)" font-size="32" style="fill:rgb(71, 14, 97)">left</text>
+<text transform="translate(768,210) rotate(-90)" font-size="31" style="fill:rgb(49, 181, 123)">rectangular</text>
+<text transform="translate(167,240)" font-size="30" style="fill:rgb(72, 24, 106)">element</text>
+<text transform="translate(3,148)" font-size="30" style="fill:rgb(52, 96, 141)">Detail</text>
+<text transform="translate(674,208)" font-size="30" style="fill:rgb(72, 27, 109)">amt</text>
+<text transform="translate(280,347)" font-size="30" style="fill:rgb(72, 41, 121)">window</text>
+<text transform="translate(205,20)" font-size="25" style="fill:rgb(152, 216, 62)">positioning</text>
+<text transform="translate(410,239)" font-size="25" style="fill:rgb(66, 190, 113)">spatial</text>
+<text transform="translate(302,233)" font-size="25" style="fill:rgb(70, 51, 127)">black</text>
+<text transform="translate(235,58)" font-size="25" style="fill:rgb(72, 28, 110)">front</text>
+<text transform="translate(545,287)" font-size="25" style="fill:rgb(66, 190, 113)">desk</text>
+<text transform="translate(650,121)" font-size="24" style="fill:rgb(41, 122, 142)">near</text>
+<text transform="translate(513,107)" font-size="24" style="fill:rgb(45, 113, 142)">using</text>
+<text transform="translate(684,61)" font-size="24" style="fill:rgb(70, 48, 126)">wall</text>
+<text transform="translate(371,169) rotate(-90)" font-size="24" style="fill:rgb(99, 203, 95)">question</text>
+<text transform="translate(377,205)" font-size="24" style="fill:rgb(58, 83, 139)">word</text>
+<text transform="translate(29,18)" font-size="24" style="fill:rgb(69, 5, 89)">Answer</text>
+<text transform="translate(71,238)" font-size="24" style="fill:rgb(38, 130, 142)">phrase</text>
+<text transform="translate(684,76)" font-size="24" style="fill:rgb(108, 205, 90)">se</text>
+<text transform="translate(80,167)" font-size="24" style="fill:rgb(31, 154, 138)">wooden</text>
+<text transform="translate(34,331)" font-size="23" style="fill:rgb(46, 110, 142)">choose</text>
+<text transform="translate(786,224) rotate(-90)" font-size="23" style="fill:rgb(236, 229, 27)">Select</text>
+<text transform="translate(217,168)" font-size="23" style="fill:rgb(34, 139, 141)">trash</text>
+<text transform="translate(725,333)" font-size="23" style="fill:rgb(31, 148, 140)">light</text>
+<text transform="translate(742,174) rotate(-90)" font-size="23" style="fill:rgb(44, 115, 142)">closest</text>
+<text transform="translate(344,280)" font-size="23" style="fill:rgb(110, 206, 88)">bed</text>
+<text transform="translate(657,226) rotate(-90)" font-size="23" style="fill:rgb(31, 159, 136)">area</text>
+<text transform="translate(484,156) rotate(-90)" font-size="23" style="fill:rgb(31, 153, 138)">located</text>
+<text transform="translate(247,278)" font-size="23" style="fill:rgb(32, 164, 134)">room</text>
+<text transform="translate(350,187)" font-size="23" style="fill:rgb(192, 223, 37)">dark</text>
+<text transform="translate(319,146) rotate(-90)" font-size="23" style="fill:rgb(37, 132, 142)">brown</text>
+<text transform="translate(584,19)" font-size="23" style="fill:rgb(139, 214, 70)">kindly</text>
+<text transform="translate(118,16)" font-size="19" style="fill:rgb(60, 79, 138)">fitting</text>
+<text transform="translate(131,120)" font-size="19" style="fill:rgb(67, 61, 132)">Yes</text>
+<text transform="translate(327,298)" font-size="19" style="fill:rgb(38, 130, 142)">couch</text>
+<text transform="translate(411,296)" font-size="19" style="fill:rgb(57, 86, 140)">two</text>
+<text transform="translate(238,37)" font-size="19" style="fill:rgb(76, 194, 108)">Describe</text>
+<text transform="translate(202,141) rotate(-90)" font-size="19" style="fill:rgb(221, 227, 24)">close</text>
+<text transform="translate(650,298) rotate(-90)" font-size="19" style="fill:rgb(37, 171, 130)">toilet</text>
+<text transform="translate(421,127)" font-size="19" style="fill:rgb(210, 226, 27)">sink</text>
+<text transform="translate(297,135) rotate(-90)" font-size="19" style="fill:rgb(78, 195, 107)">please</text>
+<text transform="translate(544,235)" font-size="19" style="fill:rgb(72, 37, 118)">given</text>
+<text transform="translate(10,88)" font-size="19" style="fill:rgb(110, 206, 88)">match</text>
+<text transform="translate(790,127) rotate(-90)" font-size="19" style="fill:rgb(45, 178, 125)">According</text>
+<text transform="translate(522,323) rotate(-90)" font-size="19" style="fill:rgb(31, 159, 136)">placed</text>
+<text transform="translate(125,327)" font-size="18" style="fill:rgb(31, 152, 139)">facing</text>
+<text transform="translate(552,152)" font-size="18" style="fill:rgb(31, 152, 139)">next</text>
+<text transform="translate(245,390)" font-size="18" style="fill:rgb(41, 121, 142)">shelf</text>
+<text transform="translate(627,57) rotate(-90)" font-size="18" style="fill:rgb(33, 166, 133)">one</text>
+<text transform="translate(364,326)" font-size="17" style="fill:rgb(41, 175, 127)">kitchen</text>
+<text transform="translate(111,297)" font-size="17" style="fill:rgb(241, 229, 29)">colored</text>
+<text transform="translate(516,121)" font-size="17" style="fill:rgb(39, 128, 142)">blue</text>
+<text transform="translate(214,208) rotate(-90)" font-size="17" style="fill:rgb(50, 101, 142)">visual</text>
+<text transform="translate(298,244)" font-size="13" style="fill:rgb(84, 197, 104)">characteristic</text>
+<text transform="translate(452,165)" font-size="13" style="fill:rgb(189, 223, 38)">Portray</text>
+<text transform="translate(307,158)" font-size="13" style="fill:rgb(32, 146, 140)">far</text>
+<text transform="translate(390,162)" font-size="13" style="fill:rgb(42, 118, 142)">closer</text>
+<text transform="translate(257,288)" font-size="13" style="fill:rgb(72, 38, 119)">stand</text>
+<text transform="translate(657,185)" font-size="13" style="fill:rgb(226, 228, 24)">picture</text>
+<text transform="translate(613,114)" font-size="13" style="fill:rgb(50, 101, 142)">away</text>
+<text transform="translate(406,337)" font-size="13" style="fill:rgb(68, 57, 131)">find</text>
+<text transform="translate(244,325)" font-size="13" style="fill:rgb(72, 41, 121)">pillow</text>
+<text transform="translate(3,160)" font-size="13" style="fill:rgb(41, 122, 142)">monitor</text>
+<text transform="translate(6,227)" font-size="13" style="fill:rgb(71, 47, 125)">nearby</text>
+<text transform="translate(251,130) rotate(-90)" font-size="13" style="fill:rgb(55, 91, 141)">towel</text>
+<text transform="translate(381,219)" font-size="13" style="fill:rgb(178, 221, 45)">office</text>
+<text transform="translate(587,167)" font-size="13" style="fill:rgb(50, 182, 122)">modern</text>
+<text transform="translate(321,58)" font-size="13" style="fill:rgb(38, 129, 142)">lamp</text>
+<text transform="translate(10,242)" font-size="13" style="fill:rgb(72, 36, 117)">top</text>
+<text transform="translate(67,80)" font-size="13" style="fill:rgb(108, 205, 90)">paper</text>
+<text transform="translate(14,393) rotate(-90)" font-size="13" style="fill:rgb(194, 223, 35)">Adjacent</text>
+<text transform="translate(445,395)" font-size="13" style="fill:rgb(42, 119, 142)">box</text>
+<text transform="translate(95,58)" font-size="13" style="fill:rgb(32, 146, 140)">curtain</text>
+<text transform="translate(224,311) rotate(-90)" font-size="13" style="fill:rgb(32, 164, 134)">backpack</text>
+<text transform="translate(527,12)" font-size="13" style="fill:rgb(40, 124, 142)">another</text>
+<text transform="translate(573,246)" font-size="13" style="fill:rgb(59, 187, 117)">behind</text>
+<text transform="translate(556,299)" font-size="13" style="fill:rgb(144, 215, 67)">corner</text>
+<text transform="translate(369,12)" font-size="13" style="fill:rgb(72, 38, 119)">sit</text>
+<text transform="translate(296,322)" font-size="13" style="fill:rgb(70, 10, 93)">radiator</text>
+<text transform="translate(119,26)" font-size="13" style="fill:rgb(69, 55, 129)">counter</text>
+<text transform="translate(100,374)" font-size="13" style="fill:rgb(45, 113, 142)">coffee</text>
+<text transform="translate(737,384)" font-size="13" style="fill:rgb(72, 38, 119)">mounted</text>
+<text transform="translate(2,28)" font-size="13" style="fill:rgb(52, 96, 141)">bathroom</text>
+<text transform="translate(235,215)" font-size="13" style="fill:rgb(66, 64, 134)">bin</text>
+<text transform="translate(657,221)" font-size="13" style="fill:rgb(31, 161, 135)">center</text>
+<text transform="translate(383,125) rotate(-90)" font-size="13" style="fill:rgb(42, 119, 142)">bookshelf</text>
+<text transform="translate(685,141)" font-size="13" style="fill:rgb(103, 204, 92)">frame</text>
+<text transform="translate(797,244) rotate(-90)" font-size="13" style="fill:rgb(46, 109, 142)">whiteboard</text>
+<text transform="translate(166,245) rotate(-90)" font-size="13" style="fill:rgb(105, 205, 91)">metallic</text>
+<text transform="translate(724,189)" font-size="13" style="fill:rgb(38, 173, 129)">red</text>
+<text transform="translate(669,385)" font-size="13" style="fill:rgb(54, 93, 141)">book</text>
+<text transform="translate(329,143) rotate(-90)" font-size="13" style="fill:rgb(72, 20, 103)">slightly</text>
+<text transform="translate(516,85)" font-size="10" style="fill:rgb(33, 143, 141)">nightstand</text>
+<text transform="translate(634,82)" font-size="10" style="fill:rgb(192, 223, 37)">dresser</text>
+<text transform="translate(491,44)" font-size="10" style="fill:rgb(41, 122, 142)">seat</text>
+<text transform="translate(554,129)" font-size="10" style="fill:rgb(103, 204, 92)">handle</text>
+<text transform="translate(628,61)" font-size="10" style="fill:rgb(38, 130, 142)">mirror</text>
+<text transform="translate(255,340)" font-size="10" style="fill:rgb(42, 118, 142)">TV</text>
+<text transform="translate(274,398)" font-size="10" style="fill:rgb(105, 205, 91)">bese</text>
+<text transform="translate(698,9)" font-size="10" style="fill:rgb(69, 53, 129)">farthest</text>
+<text transform="translate(701,130)" font-size="10" style="fill:rgb(41, 175, 127)">mdle</text>
+<text transform="translate(754,302) rotate(-90)" font-size="10" style="fill:rgb(72, 24, 106)">three</text>
+<text transform="translate(631,301) rotate(-90)" font-size="10" style="fill:rgb(35, 169, 131)">cylindrical</text>
+<text transform="translate(757,350)" font-size="10" style="fill:rgb(103, 204, 92)">Locate</text>
+<text transform="translate(732,310) rotate(-90)" font-size="10" style="fill:rgb(34, 167, 133)">color</text>
+<text transform="translate(458,320)" font-size="10" style="fill:rgb(72, 28, 110)">computer</text>
+<text transform="translate(680,172)" font-size="10" style="fill:rgb(127, 211, 78)">nearest</text>
+<text transform="translate(4,123)" font-size="10" style="fill:rgb(71, 47, 125)">gray</text>
+<text transform="translate(619,102)" font-size="10" style="fill:rgb(57, 85, 140)">round</text>
+<text transform="translate(129,99)" font-size="10" style="fill:rgb(176, 221, 47)">end</text>
+<text transform="translate(120,395)" font-size="10" style="fill:rgb(35, 138, 141)">green</text>
+<text transform="translate(652,242)" font-size="10" style="fill:rgb(33, 165, 133)">stool</text>
+<text transform="translate(340,308)" font-size="10" style="fill:rgb(30, 157, 137)">floor</text>
+<text transform="translate(419,258)" font-size="10" style="fill:rgb(41, 123, 142)">tall</text>
+<text transform="translate(562,222)" font-size="10" style="fill:rgb(70, 52, 128)">backrest</text>
+<text transform="translate(150,55)" font-size="10" style="fill:rgb(46, 110, 142)">opposite</text>
+<text transform="translate(516,222) rotate(-90)" font-size="10" style="fill:rgb(41, 122, 142)">refrigerator</text>
+<text transform="translate(412,273)" font-size="10" style="fill:rgb(71, 14, 97)">beige</text>
+<text transform="translate(237,188)" font-size="10" style="fill:rgb(197, 224, 33)">plant</text>
+<text transform="translate(545,264)" font-size="10" style="fill:rgb(90, 200, 100)">armchair</text>
+<text transform="translate(715,221)" font-size="10" style="fill:rgb(68, 1, 84)">keyboard</text>
+<text transform="translate(173,396)" font-size="10" style="fill:rgb(40, 124, 142)">directly</text>
+<text transform="translate(258,297)" font-size="10" style="fill:rgb(80, 196, 106)">distant</text>
+<text transform="translate(432,220)" font-size="10" style="fill:rgb(194, 223, 35)">silver</text>
+<text transform="translate(165,352)" font-size="10" style="fill:rgb(72, 28, 110)">back</text>
+<text transform="translate(8,311) rotate(-90)" font-size="10" style="fill:rgb(86, 198, 103)">Additionally</text>
+<text transform="translate(235,222)" font-size="10" style="fill:rgb(38, 129, 142)">small</text>
+<text transform="translate(365,44) rotate(-90)" font-size="10" style="fill:rgb(94, 201, 98)">bag</text>
+<text transform="translate(659,233)" font-size="10" style="fill:rgb(42, 119, 142)">sofa</text>
+<text transform="translate(651,387) rotate(-90)" font-size="10" style="fill:rgb(64, 69, 136)">beneath</text>
+<text transform="translate(763,316) rotate(-90)" font-size="10" style="fill:rgb(72, 193, 110)">recycling</text>
+<text transform="translate(224,398)" font-size="10" style="fill:rgb(31, 148, 140)">distance</text>
+<text transform="translate(449,11)" font-size="10" style="fill:rgb(36, 135, 142)">scene</text>
+<text transform="translate(39,397)" font-size="10" style="fill:rgb(38, 129, 142)">microwave</text>
+<text transform="translate(296,166)" font-size="10" style="fill:rgb(33, 165, 133)">tower</text>
+<text transform="translate(644,69)" font-size="10" style="fill:rgb(72, 193, 110)">glossy</text>
+<text transform="translate(77,298) rotate(-90)" font-size="10" style="fill:rgb(142, 214, 69)">dispenser</text>
+<text transform="translate(765,364)" font-size="10" style="fill:rgb(59, 187, 117)">stove</text>
+<text transform="translate(36,296) rotate(-90)" font-size="10" style="fill:rgb(30, 156, 137)">rest</text>
+<text transform="translate(91,243)" font-size="10" style="fill:rgb(197, 224, 33)">across</text>
+<text transform="translate(17,167)" font-size="10" style="fill:rgb(31, 161, 136)">bathtub</text>
+<text transform="translate(29,198)" font-size="10" style="fill:rgb(221, 227, 24)">vanity</text>
+<text transform="translate(71,121)" font-size="10" style="fill:rgb(49, 102, 142)">drawer</text>
+<text transform="translate(686,103)" font-size="10" style="fill:rgb(92, 200, 99)">file</text>
+<text transform="translate(678,23)" font-size="10" style="fill:rgb(34, 167, 133)">design</text>
+<text transform="translate(675,371)" font-size="10" style="fill:rgb(61, 77, 138)">curved</text>
+<text transform="translate(260,175)" font-size="10" style="fill:rgb(71, 17, 100)">flat</text>
+<text transform="translate(633,155)" font-size="10" style="fill:rgb(253, 231, 37)">l</text>
+<text transform="translate(676,360)" font-size="10" style="fill:rgb(50, 101, 142)">large</text>
+<text transform="translate(235,201)" font-size="10" style="fill:rgb(72, 23, 105)">looking</text>
+<text transform="translate(378,377)" font-size="10" style="fill:rgb(137, 213, 72)">framed</text>
+<text transform="translate(796,295) rotate(-90)" font-size="10" style="fill:rgb(59, 82, 139)">multiple</text>
+<text transform="translate(562,202) rotate(-90)" font-size="10" style="fill:rgb(231, 228, 25)">standing</text>
+<text transform="translate(584,27)" font-size="10" style="fill:rgb(38, 130, 142)">glass</text>
+<text transform="translate(419,348)" font-size="10" style="fill:rgb(208, 225, 28)">vertical</text>
+<text transform="translate(516,129)" font-size="10" style="fill:rgb(129, 211, 77)">finish</text>
+<text transform="translate(398,169)" font-size="10" style="fill:rgb(149, 216, 64)">shower</text>
+<text transform="translate(529,397) rotate(-90)" font-size="10" style="fill:rgb(45, 112, 142)">upholstered</text>
+<text transform="translate(470,376)" font-size="10" style="fill:rgb(58, 186, 118)">metal</text>
+<text transform="translate(670,396)" font-size="10" style="fill:rgb(44, 115, 142)">surface</text>
+<text transform="translate(280,67)" font-size="10" style="fill:rgb(51, 98, 141)">item</text>
+<text transform="translate(544,318)" font-size="10" style="fill:rgb(33, 144, 141)">screen</text>
+<text transform="translate(392,17)" font-size="10" style="fill:rgb(139, 214, 70)">found</text>
+<text transform="translate(589,361)" font-size="10" style="fill:rgb(36, 134, 142)">square</text>
+<text transform="translate(755,8)" font-size="10" style="fill:rgb(45, 178, 125)">plastic</text>
+<text transform="translate(12,213) rotate(-90)" font-size="10" style="fill:rgb(69, 5, 89)">hanging</text>
+<text transform="translate(238,132) rotate(-90)" font-size="10" style="fill:rgb(65, 68, 135)">doorframe</text>
+<text transform="translate(761,393)" font-size="10" style="fill:rgb(31, 161, 135)">closet</text>
+<text transform="translate(196,386) rotate(-90)" font-size="10" style="fill:rgb(72, 28, 110)">telephone</text>
+<text transform="translate(266,147)" font-size="10" style="fill:rgb(112, 207, 87)">board</text>
+<text transform="translate(657,303) rotate(-90)" font-size="10" style="fill:rgb(88, 199, 101)">horizontal</text>
+<text transform="translate(335,214)" font-size="10" style="fill:rgb(149, 216, 64)">open</text>
+<text transform="translate(797,132) rotate(-90)" font-size="10" style="fill:rgb(58, 83, 139)">cushioned</text>
+<text transform="translate(413,88)" font-size="10" style="fill:rgb(44, 114, 142)">long</text>
+<text transform="translate(497,348)" font-size="10" style="fill:rgb(80, 196, 106)">hang</text>
+<text transform="translate(552,138)" font-size="10" style="fill:rgb(119, 209, 83)">space</text>
+<text transform="translate(657,128)" font-size="10" style="fill:rgb(62, 76, 138)">ottoman</text>
+<text transform="translate(114,223) rotate(-90)" font-size="10" style="fill:rgb(33, 143, 141)">standard</text>
+<text transform="translate(627,50)" font-size="10" style="fill:rgb(103, 204, 92)">smooth</text>
+<text transform="translate(150,285) rotate(-90)" font-size="10" style="fill:rgb(72, 23, 105)">printer</text>
+<text transform="translate(518,220)" font-size="10" style="fill:rgb(86, 198, 103)">laptop</text>
+<text transform="translate(618,124)" font-size="10" style="fill:rgb(103, 204, 92)">shoe</text>
+<text transform="translate(679,83)" font-size="10" style="fill:rgb(57, 86, 140)">nearer</text>
+<text transform="translate(227,61) rotate(-90)" font-size="10" style="fill:rgb(71, 45, 123)">shaped</text>
+<text transform="translate(385,172) rotate(-90)" font-size="10" style="fill:rgb(134, 213, 73)">Identify</text>
+<text transform="translate(76,390) rotate(-90)" font-size="10" style="fill:rgb(65, 68, 135)">featuring</text>
+<text transform="translate(591,120) rotate(-90)" font-size="10" style="fill:rgb(221, 227, 24)">sitting</text>
+<text transform="translate(557,120)" font-size="10" style="fill:rgb(31, 149, 139)">four</text>
+<text transform="translate(772,289) rotate(-90)" font-size="10" style="fill:rgb(54, 92, 141)">roll</text>
+<text transform="translate(201,317)" font-size="10" style="fill:rgb(36, 170, 131)">steel</text>
+<text transform="translate(761,371)" font-size="10" style="fill:rgb(71, 19, 101)">shelve</text>
+<text transform="translate(269,188)" font-size="10" style="fill:rgb(32, 146, 140)">face</text>
+<text transform="translate(136,127)" font-size="10" style="fill:rgb(54, 93, 141)">pick</text>
+<text transform="translate(304,121) rotate(-90)" font-size="10" style="fill:rgb(56, 88, 140)">stainless</text>
+<text transform="translate(299,377)" font-size="10" style="fill:rgb(213, 226, 26)">cushion</text>
+<text transform="translate(614,92)" font-size="10" style="fill:rgb(49, 181, 123)">panel</text>
+<text transform="translate(749,120) rotate(-90)" font-size="10" style="fill:rgb(155, 217, 60)">feature</text>
+<text transform="translate(33,269)" font-size="10" style="fill:rgb(86, 198, 103)">leg</text>
+<text transform="translate(199,204) rotate(-90)" font-size="10" style="fill:rgb(45, 178, 125)">suitcase</text>
+<text transform="translate(168,62)" font-size="10" style="fill:rgb(38, 129, 142)">along</text>
+<text transform="translate(529,311) rotate(-90)" font-size="10" style="fill:rgb(72, 26, 108)">circular</text>
+<text transform="translate(480,298) rotate(-90)" font-size="10" style="fill:rgb(37, 132, 142)">yellow</text>
+<text transform="translate(67,88)" font-size="6" style="fill:rgb(70, 10, 93)">upholstery</text>
+<text transform="translate(675,290)" font-size="6" style="fill:rgb(46, 111, 142)">toward</text>
+<text transform="translate(680,146)" font-size="6" style="fill:rgb(30, 155, 138)">underneath</text>
+<text transform="translate(78,203)" font-size="6" style="fill:rgb(33, 143, 141)">set</text>
+<text transform="translate(481,244)" font-size="6" style="fill:rgb(72, 29, 111)">adorned</text>
+<text transform="translate(470,213) rotate(-90)" font-size="6" style="fill:rgb(39, 173, 129)">transparent</text>
+<text transform="translate(388,147)" font-size="6" style="fill:rgb(31, 153, 138)">many</text>
+<text transform="translate(573,48)" font-size="6" style="fill:rgb(31, 161, 135)">second</text>
+<text transform="translate(735,40) rotate(-90)" font-size="6" style="fill:rgb(46, 179, 124)">stall</text>
+<text transform="translate(69,310)" font-size="6" style="fill:rgb(31, 151, 139)">sleek</text>
+<text transform="translate(166,150)" font-size="6" style="fill:rgb(213, 226, 26)">furthest</text>
+<text transform="translate(617,317)" font-size="6" style="fill:rgb(69, 5, 89)">fabric</text>
+<text transform="translate(677,281)" font-size="6" style="fill:rgb(202, 225, 31)">mesh</text>
+<text transform="translate(176,264)" font-size="6" style="fill:rgb(37, 132, 142)">blind</text>
+<text transform="translate(209,386) rotate(-90)" font-size="6" style="fill:rgb(197, 224, 33)">accompanied</text>
+<text transform="translate(248,347)" font-size="6" style="fill:rgb(72, 24, 106)">clothes</text>
+<text transform="translate(548,46) rotate(-90)" font-size="6" style="fill:rgb(88, 199, 101)">textured</text>
+<text transform="translate(489,7)" font-size="6" style="fill:rgb(58, 84, 140)">resting</text>
+<text transform="translate(634,165)" font-size="6" style="fill:rgb(42, 118, 142)">entrance</text>
+<text transform="translate(135,88)" font-size="6" style="fill:rgb(178, 221, 45)">armrest</text>
+<text transform="translate(413,174)" font-size="6" style="fill:rgb(34, 168, 132)">row</text>
+<text transform="translate(485,219)" font-size="6" style="fill:rgb(70, 11, 94)">hand</text>
+<text transform="translate(392,298) rotate(-90)" font-size="6" style="fill:rgb(52, 97, 141)">storage</text>
+<text transform="translate(725,201)" font-size="6" style="fill:rgb(72, 31, 112)">closed</text>
+<text transform="translate(206,215)" font-size="6" style="fill:rgb(53, 183, 121)">bar</text>
+<text transform="translate(773,24)" font-size="6" style="fill:rgb(69, 4, 87)">bottle</text>
+<text transform="translate(4,6)" font-size="6" style="fill:rgb(231, 228, 25)">faucet</text>
+<text transform="translate(356,49)" font-size="6" style="fill:rgb(39, 173, 129)">base</text>
+<text transform="translate(415,182)" font-size="6" style="fill:rgb(70, 192, 111)">soft</text>
+<text transform="translate(531,156)" font-size="6" style="fill:rgb(71, 13, 96)">shape</text>
+<text transform="translate(49,127)" font-size="6" style="fill:rgb(33, 145, 140)">laundry</text>
+<text transform="translate(100,269)" font-size="6" style="fill:rgb(64, 70, 136)">soap</text>
+<text transform="translate(273,42)" font-size="6" style="fill:rgb(221, 227, 24)">within</text>
+<text transform="translate(492,30)" font-size="6" style="fill:rgb(142, 214, 69)">copier</text>
+<text transform="translate(557,397) rotate(-90)" font-size="6" style="fill:rgb(253, 231, 37)">compartment</text>
+<text transform="translate(469,383)" font-size="6" style="fill:rgb(186, 222, 40)">hardcover</text>
+<text transform="translate(35,371)" font-size="6" style="fill:rgb(71, 46, 124)">oval</text>
+<text transform="translate(647,312)" font-size="6" style="fill:rgb(72, 35, 116)">sized</text>
+<text transform="translate(585,34)" font-size="6" style="fill:rgb(55, 90, 140)">pattern</text>
+<text transform="translate(437,324) rotate(-90)" font-size="6" style="fill:rgb(51, 99, 141)">orange</text>
+<text transform="translate(35,188)" font-size="6" style="fill:rgb(52, 182, 121)">various</text>
+<text transform="translate(703,345)" font-size="6" style="fill:rgb(144, 215, 67)">lie</text>
+<text transform="translate(249,330)" font-size="6" style="fill:rgb(72, 28, 110)">around</text>
+<text transform="translate(88,66)" font-size="6" style="fill:rgb(55, 90, 140)">blanket</text>
+<text transform="translate(190,325)" font-size="6" style="fill:rgb(72, 36, 117)">cup</text>
+<text transform="translate(199,221)" font-size="6" style="fill:rgb(39, 127, 142)">leather</text>
+<text transform="translate(155,276) rotate(-90)" font-size="6" style="fill:rgb(65, 68, 135)">patterned</text>
+<text transform="translate(124,332)" font-size="6" style="fill:rgb(72, 29, 111)">display</text>
+<text transform="translate(458,34)" font-size="6" style="fill:rgb(239, 229, 28)">sling</text>
+<text transform="translate(327,281)" font-size="6" style="fill:rgb(71, 46, 124)">edge</text>
+<text transform="translate(679,164)" font-size="6" style="fill:rgb(59, 187, 117)">wardrobe</text>
+<text transform="translate(670,6)" font-size="6" style="fill:rgb(65, 66, 135)">tell</text>
+<text transform="translate(775,138)" font-size="6" style="fill:rgb(36, 135, 142)">see</text>
+<text transform="translate(647,202)" font-size="6" style="fill:rgb(69, 55, 129)">hamper</text>
+<text transform="translate(408,263)" font-size="6" style="fill:rgb(70, 192, 111)">machine</text>
+<text transform="translate(511,226)" font-size="6" style="fill:rgb(103, 204, 92)">frge</text>
+<text transform="translate(485,151)" font-size="6" style="fill:rgb(38, 130, 142)">bench</text>
+<text transform="translate(459,42)" font-size="6" style="fill:rgb(72, 31, 112)">maker</text>
+<text transform="translate(600,153)" font-size="6" style="fill:rgb(42, 119, 142)">single</text>
+<text transform="translate(727,211)" font-size="6" style="fill:rgb(72, 22, 104)">cardboard</text>
+<text transform="translate(454,243)" font-size="6" style="fill:rgb(108, 205, 90)">cans</text>
+<text transform="translate(119,222)" font-size="6" style="fill:rgb(66, 65, 134)">correct</text>
+<text transform="translate(629,38)" font-size="6" style="fill:rgb(45, 178, 125)">bottom</text>
+<text transform="translate(313,327)" font-size="6" style="fill:rgb(59, 81, 139)">colorful</text>
+<text transform="translate(441,16)" font-size="6" style="fill:rgb(42, 118, 142)">direction</text>
+<text transform="translate(680,269)" font-size="6" style="fill:rgb(38, 130, 142)">rack</text>
+<text transform="translate(744,42) rotate(-90)" font-size="6" style="fill:rgb(122, 209, 81)">reach</text>
+<text transform="translate(408,280)" font-size="6" style="fill:rgb(35, 169, 131)">installed</text>
+<text transform="translate(701,119)" font-size="6" style="fill:rgb(72, 24, 106)">grey</text>
+<text transform="translate(570,203) rotate(-90)" font-size="6" style="fill:rgb(58, 186, 118)">countertop</text>
+<text transform="translate(35,205)" font-size="6" style="fill:rgb(38, 129, 142)">rounded</text>
+<text transform="translate(187,270)" font-size="6" style="fill:rgb(71, 42, 122)">o'clock</text>
+<text transform="translate(619,131)" font-size="6" style="fill:rgb(134, 213, 73)">swivel</text>
+<text transform="translate(114,185)" font-size="6" style="fill:rgb(168, 219, 52)">smaller</text>
+<text transform="translate(284,249)" font-size="6" style="fill:rgb(72, 27, 109)">pink</text>
+<text transform="translate(510,121) rotate(-90)" font-size="6" style="fill:rgb(40, 125, 142)">proximity</text>
+<text transform="translate(725,73)" font-size="6" style="fill:rgb(71, 17, 100)">draped</text>
+<text transform="translate(550,90)" font-size="6" style="fill:rgb(80, 196, 106)">together</text>
+<text transform="translate(179,206) rotate(-90)" font-size="6" style="fill:rgb(31, 150, 139)">deep</text>
+<text transform="translate(225,246)" font-size="6" style="fill:rgb(68, 2, 86)">tan</text>
+<text transform="translate(142,306)" font-size="6" style="fill:rgb(71, 19, 101)">wood</text>
+<text transform="translate(616,200)" font-size="6" style="fill:rgb(181, 222, 43)">jacket</text>
+<text transform="translate(583,180)" font-size="6" style="fill:rgb(40, 174, 128)">look</text>
+<text transform="translate(530,164)" font-size="6" style="fill:rgb(50, 100, 142)">double</text>
+<text transform="translate(766,338)" font-size="6" style="fill:rgb(208, 225, 28)">arranged</text>
+<text transform="translate(747,163) rotate(-90)" font-size="6" style="fill:rgb(31, 160, 136)">foot</text>
+<text transform="translate(490,49)" font-size="6" style="fill:rgb(67, 62, 133)">seated</text>
+<text transform="translate(488,16)" font-size="6" style="fill:rgb(30, 156, 137)">farther</text>
+<text transform="translate(627,230)" font-size="6" style="fill:rgb(72, 23, 105)">vibrant</text>
+<text transform="translate(393,6)" font-size="6" style="fill:rgb(72, 33, 115)">slender</text>
+<text transform="translate(167,168)" font-size="6" style="fill:rgb(52, 97, 141)">water</text>
+<text transform="translate(94,397)" font-size="6" style="fill:rgb(41, 175, 127)">raised</text>
+<text transform="translate(285,260)" font-size="6" style="fill:rgb(36, 170, 131)">shiny</text>
+<text transform="translate(593,172)" font-size="6" style="fill:rgb(176, 221, 47)">head</text>
+<text transform="translate(795,67) rotate(-90)" font-size="6" style="fill:rgb(72, 193, 110)">shade</text>
+<text transform="translate(285,303)" font-size="6" style="fill:rgb(40, 174, 128)">made</text>
+<text transform="translate(4,14)" font-size="6" style="fill:rgb(65, 66, 135)">boxes</text>
+<text transform="translate(633,27)" font-size="6" style="fill:rgb(99, 203, 95)">slat</text>
+<text transform="translate(148,102)" font-size="6" style="fill:rgb(40, 125, 142)">setup</text>
+<text transform="translate(769,14)" font-size="6" style="fill:rgb(124, 210, 80)">flanked</text>
+<text transform="translate(284,217)" font-size="6" style="fill:rgb(68, 57, 131)">atop</text>
+<text transform="translate(284,107) rotate(-90)" font-size="6" style="fill:rgb(40, 125, 142)">surrounded</text>
+<text transform="translate(354,264)" font-size="6" style="fill:rgb(213, 226, 26)">ahead</text>
+<text transform="translate(493,36)" font-size="6" style="fill:rgb(88, 199, 101)">even</text>
+<text transform="translate(575,343)" font-size="6" style="fill:rgb(70, 50, 126)">first</text>
+<text transform="translate(585,389) rotate(-90)" font-size="6" style="fill:rgb(213, 226, 26)">arrangement</text>
+<text transform="translate(495,251)" font-size="6" style="fill:rgb(53, 94, 141)">pair</text>
+<text transform="translate(563,270)" font-size="6" style="fill:rgb(67, 61, 132)">clear</text>
+<text transform="translate(280,152)" font-size="6" style="fill:rgb(41, 175, 127)">holder</text>
+<text transform="translate(330,25)" font-size="6" style="fill:rgb(41, 123, 142)">neatly</text>
+<text transform="translate(321,303)" font-size="6" style="fill:rgb(69, 55, 129)">oven</text>
+<text transform="translate(564,396) rotate(-90)" font-size="6" style="fill:rgb(68, 59, 132)">location</text>
+<text transform="translate(573,251)" font-size="6" style="fill:rgb(43, 117, 142)">lower</text>
+<text transform="translate(725,16)" font-size="6" style="fill:rgb(32, 147, 140)">simple</text>
+<text transform="translate(303,42)" font-size="6" style="fill:rgb(152, 216, 62)">visible</text>
+<text transform="translate(34,53)" font-size="6" style="fill:rgb(69, 4, 87)">similar</text>
+<text transform="translate(554,74)" font-size="6" style="fill:rgb(186, 222, 40)">lying</text>
+<text transform="translate(64,182) rotate(-90)" font-size="6" style="fill:rgb(49, 103, 142)">position</text>
+<text transform="translate(322,271)" font-size="6" style="fill:rgb(155, 217, 60)">stair</text>
+<text transform="translate(529,169)" font-size="6" style="fill:rgb(155, 217, 60)">cover</text>
+<text transform="translate(506,296) rotate(-90)" font-size="6" style="fill:rgb(61, 77, 138)">elongated</text>
+<text transform="translate(175,70)" font-size="6" style="fill:rgb(72, 36, 117)">seater</text>
+<text transform="translate(32,360)" font-size="6" style="fill:rgb(60, 80, 139)">plush</text>
+<text transform="translate(724,261) rotate(-90)" font-size="6" style="fill:rgb(40, 125, 142)">hold</text>
+<text transform="translate(544,336)" font-size="6" style="fill:rgb(31, 160, 136)">leave</text>
+<text transform="translate(226,376)" font-size="6" style="fill:rgb(66, 64, 134)">seating</text>
+<text transform="translate(272,139)" font-size="6" style="fill:rgb(66, 65, 134)">turn</text>
+<text transform="translate(7,93)" font-size="6" style="fill:rgb(71, 47, 125)">wheel</text>
+<text transform="translate(725,339)" font-size="6" style="fill:rgb(189, 223, 38)">number</text>
+<text transform="translate(713,178)" font-size="6" style="fill:rgb(66, 63, 133)">natural</text>
+<text transform="translate(774,356)" font-size="6" style="fill:rgb(200, 224, 32)">folded</text>
+<text transform="translate(346,284)" font-size="6" style="fill:rgb(71, 46, 124)">person</text>
+<text transform="translate(19,361) rotate(-90)" font-size="6" style="fill:rgb(34, 139, 141)">traditional</text>
+<text transform="translate(611,217)" font-size="5" style="fill:rgb(39, 173, 129)">suggesting</text>
+<text transform="translate(230,322)" font-size="5" style="fill:rgb(43, 116, 142)">dish</text>
+<text transform="translate(3,71)" font-size="5" style="fill:rgb(248, 230, 33)">hung</text>
+<text transform="translate(677,296)" font-size="5" style="fill:rgb(35, 138, 141)">present</text>
+<text transform="translate(284,309)" font-size="5" style="fill:rgb(71, 19, 101)">digital</text>
+<text transform="translate(578,305)" font-size="5" style="fill:rgb(35, 138, 141)">exit</text>
+<text transform="translate(528,318)" font-size="5" style="fill:rgb(181, 222, 43)">odd</text>
+<text transform="translate(4,63)" font-size="5" style="fill:rgb(61, 78, 138)">washing</text>
+<text transform="translate(71,315)" font-size="5" style="fill:rgb(41, 123, 142)">alone</text>
+<text transform="translate(33,242)" font-size="5" style="fill:rgb(205, 225, 29)">striped</text>
+<text transform="translate(175,244)" font-size="5" style="fill:rgb(32, 164, 134)">container</text>
+<text transform="translate(127,385)" font-size="5" style="fill:rgb(69, 4, 87)">piano</text>
+<text transform="translate(189,76)" font-size="5" style="fill:rgb(127, 211, 78)">sign</text>
+<text transform="translate(547,244)" font-size="5" style="fill:rgb(43, 116, 142)">greatest</text>
+<text transform="translate(441,152)" font-size="5" style="fill:rgb(66, 64, 134)">closely</text>
+<text transform="translate(655,383) rotate(-90)" font-size="5" style="fill:rgb(210, 226, 27)">blackboard</text>
+<text transform="translate(19,231)" font-size="5" style="fill:rgb(170, 220, 50)">matching</text>
+<text transform="translate(384,68)" font-size="5" style="fill:rgb(35, 137, 142)">piece</text>
+<text transform="translate(698,14)" font-size="5" style="fill:rgb(53, 94, 141)">will</text>
+<text transform="translate(611,81)" font-size="5" style="fill:rgb(110, 206, 88)">compact</text>
+<text transform="translate(471,169)" font-size="5" style="fill:rgb(31, 161, 135)">ergonomic</text>
+<text transform="translate(680,27)" font-size="5" style="fill:rgb(101, 203, 94)">purple</text>
+<text transform="translate(770,244)" font-size="5" style="fill:rgb(57, 86, 140)">basket</text>
+<text transform="translate(278,180)" font-size="5" style="fill:rgb(61, 77, 138)">knob</text>
+<text transform="translate(126,377)" font-size="5" style="fill:rgb(56, 88, 140)">use</text>
+<text transform="translate(516,232)" font-size="5" style="fill:rgb(38, 129, 142)">label</text>
+<text transform="translate(675,189)" font-size="5" style="fill:rgb(69, 55, 129)">texture</text>
+<text transform="translate(219,195) rotate(-90)" font-size="5" style="fill:rgb(173, 220, 48)">mouse</text>
+<text transform="translate(198,275)" font-size="5" style="fill:rgb(39, 128, 142)">seen</text>
+<text transform="translate(108,139) rotate(-90)" font-size="5" style="fill:rgb(71, 19, 101)">central</text>
+<text transform="translate(739,56) rotate(-90)" font-size="5" style="fill:rgb(88, 199, 101)">want</text>
+<text transform="translate(729,359)" font-size="5" style="fill:rgb(55, 184, 120)">higher</text>
+<text transform="translate(713,65)" font-size="5" style="fill:rgb(38, 173, 129)">multi</text>
+<text transform="translate(466,144) rotate(-90)" font-size="5" style="fill:rgb(74, 193, 109)">spine</text>
+<text transform="translate(549,16)" font-size="5" style="fill:rgb(68, 59, 132)">television</text>
+<text transform="translate(93,210) rotate(-90)" font-size="5" style="fill:rgb(32, 164, 134)">lampshade</text>
+<text transform="translate(242,152)" font-size="5" style="fill:rgb(52, 182, 121)">abstract</text>
+<text transform="translate(225,329)" font-size="5" style="fill:rgb(52, 182, 121)">larger</text>
+<text transform="translate(260,243)" font-size="5" style="fill:rgb(46, 179, 124)">upper</text>
+<text transform="translate(154,374)" font-size="5" style="fill:rgb(35, 137, 142)">stack</text>
+<text transform="translate(441,111)" font-size="5" style="fill:rgb(49, 181, 123)">cozy</text>
+<text transform="translate(202,245)" font-size="5" style="fill:rgb(72, 20, 103)">high</text>
+<text transform="translate(605,381)" font-size="5" style="fill:rgb(52, 182, 121)">short</text>
+<text transform="translate(651,74)" font-size="5" style="fill:rgb(37, 172, 130)">section</text>
+<text transform="translate(523,91)" font-size="5" style="fill:rgb(78, 195, 107)">slatted</text>
+<text transform="translate(640,392)" font-size="5" style="fill:rgb(112, 207, 87)">third</text>
+<text transform="translate(463,50)" font-size="5" style="fill:rgb(30, 155, 138)">hue</text>
+<text transform="translate(127,342)" font-size="5" style="fill:rgb(31, 148, 140)">pane</text>
+<text transform="translate(584,197)" font-size="5" style="fill:rgb(62, 74, 137)">filled</text>
+<text transform="translate(376,223)" font-size="5" style="fill:rgb(110, 206, 88)">apart</text>
+<text transform="translate(321,187)" font-size="5" style="fill:rgb(34, 167, 133)">material</text>
+<text transform="translate(228,346)" font-size="5" style="fill:rgb(202, 225, 31)">dryer</text>
+<text transform="translate(34,93)" font-size="5" style="fill:rgb(124, 210, 80)">painting</text>
+<text transform="translate(110,148)" font-size="5" style="fill:rgb(160, 218, 57)">among</text>
+<text transform="translate(719,267)" font-size="5" style="fill:rgb(68, 191, 112)">mini</text>
+<text transform="translate(748,41)" font-size="5" style="fill:rgb(37, 132, 142)">waste</text>
+<text transform="translate(17,394)" font-size="5" style="fill:rgb(60, 79, 138)">couche</text>
+<text transform="translate(436,43)" font-size="5" style="fill:rgb(192, 223, 37)">part</text>
+<text transform="translate(73,22)" font-size="5" style="fill:rgb(71, 45, 123)">different</text>
+<text transform="translate(166,220)" font-size="5" style="fill:rgb(162, 218, 55)">unit</text>
+<text transform="translate(89,94)" font-size="5" style="fill:rgb(122, 209, 81)">rod</text>
+<text transform="translate(356,253)" font-size="5" style="fill:rgb(36, 170, 131)">alongse</text>
+<text transform="translate(406,113)" font-size="5" style="fill:rgb(67, 62, 133)">clothing</text>
+<text transform="translate(156,395)" font-size="5" style="fill:rgb(72, 37, 118)">touch</text>
+<text transform="translate(250,41)" font-size="5" style="fill:rgb(58, 83, 139)">gold</text>
+<text transform="translate(131,246)" font-size="5" style="fill:rgb(72, 40, 120)">fan</text>
+<text transform="translate(514,239)" font-size="5" style="fill:rgb(43, 117, 142)">accent</text>
+<text transform="translate(153,175)" font-size="5" style="fill:rgb(55, 184, 120)">matte</text>
+<text transform="translate(676,317)" font-size="5" style="fill:rgb(51, 99, 141)">Meanwhile</text>
+<text transform="translate(226,119) rotate(-90)" font-size="5" style="fill:rgb(210, 226, 27)">immediately</text>
+<text transform="translate(152,284)" font-size="5" style="fill:rgb(31, 160, 136)">holding</text>
+<text transform="translate(420,131)" font-size="5" style="fill:rgb(144, 215, 67)">inse</text>
+<text transform="translate(532,49) rotate(-90)" font-size="5" style="fill:rgb(103, 204, 92)">polished</text>
+<text transform="translate(404,152)" font-size="5" style="fill:rgb(69, 4, 87)">trashcan</text>
+<text transform="translate(649,104)" font-size="5" style="fill:rgb(108, 205, 90)">tucked</text>
+<text transform="translate(256,118) rotate(-90)" font-size="5" style="fill:rgb(53, 94, 141)">straight</text>
+<text transform="translate(138,79)" font-size="5" style="fill:rgb(119, 209, 83)">sturdy</text>
+<text transform="translate(432,246)" font-size="5" style="fill:rgb(170, 220, 50)">bit</text>
+<text transform="translate(282,365)" font-size="5" style="fill:rgb(72, 33, 115)">ready</text>
+<text transform="translate(793,158) rotate(-90)" font-size="5" style="fill:rgb(173, 220, 48)">creating</text>
+<text transform="translate(548,390) rotate(-90)" font-size="5" style="fill:rgb(42, 119, 142)">add</text>
+<text transform="translate(392,335)" font-size="5" style="fill:rgb(248, 230, 33)">semi</text>
+<text transform="translate(773,49) rotate(-90)" font-size="5" style="fill:rgb(42, 118, 142)">vicinity</text>
+<text transform="translate(422,301)" font-size="5" style="fill:rgb(30, 155, 138)">arm</text>
+<text transform="translate(467,364)" font-size="5" style="fill:rgb(59, 81, 139)">group</text>
+<text transform="translate(76,214)" font-size="5" style="fill:rgb(70, 10, 93)">ground</text>
+<text transform="translate(462,330)" font-size="5" style="fill:rgb(57, 86, 140)">walk</text>
+<text transform="translate(42,298) rotate(-90)" font-size="5" style="fill:rgb(50, 101, 142)">centrally</text>
+<text transform="translate(529,191)" font-size="5" style="fill:rgb(72, 28, 110)">text</text>
+<text transform="translate(79,248)" font-size="5" style="fill:rgb(44, 113, 142)">strap</text>
+<text transform="translate(531,197)" font-size="5" style="fill:rgb(49, 104, 142)">five</text>
+<text transform="translate(406,187)" font-size="5" style="fill:rgb(246, 230, 32)">without</text>
+<text transform="translate(89,106)" font-size="5" style="fill:rgb(50, 100, 142)">dining</text>
+<text transform="translate(108,15)" font-size="5" style="fill:rgb(40, 174, 128)">slim</text>
+<text transform="translate(583,202)" font-size="5" style="fill:rgb(42, 120, 142)">garbage</text>
+<text transform="translate(643,317)" font-size="5" style="fill:rgb(50, 182, 122)">basin</text>
+<text transform="translate(686,226)" font-size="5" style="fill:rgb(31, 148, 140)">key</text>
+<text transform="translate(100,352)" font-size="5" style="fill:rgb(96, 202, 96)">brass</text>
+<text transform="translate(369,16)" font-size="5" style="fill:rgb(50, 100, 142)">doorway</text>
+<text transform="translate(545,328)" font-size="5" style="fill:rgb(70, 8, 92)">floral</text>
+<text transform="translate(255,24)" font-size="5" style="fill:rgb(246, 230, 32)">headboard</text>
+<text transform="translate(417,80)" font-size="5" style="fill:rgb(71, 16, 99)">level</text>
+<text transform="translate(415,209)" font-size="5" style="fill:rgb(30, 157, 137)">bulletin</text>
+<text transform="translate(185,83)" font-size="5" style="fill:rgb(46, 179, 124)">medium</text>
+<text transform="translate(771,397)" font-size="5" style="fill:rgb(234, 229, 26)">furniture</text>
+<text transform="translate(91,143) rotate(-90)" font-size="5" style="fill:rgb(117, 208, 84)">ceiling</text>
+<text transform="translate(748,55)" font-size="5" style="fill:rgb(48, 106, 142)">full</text>
+<text transform="translate(293,187)" font-size="5" style="fill:rgb(74, 193, 109)">bookcase</text>
+<text transform="translate(584,185)" font-size="5" style="fill:rgb(72, 33, 115)">appear</text>
+<text transform="translate(42,352)" font-size="5" style="fill:rgb(39, 128, 142)">kind</text>
+<text transform="translate(240,87)" font-size="5" style="fill:rgb(70, 50, 126)">place</text>
+<text transform="translate(257,205)" font-size="5" style="fill:rgb(202, 225, 31)">rail</text>
+<text transform="translate(136,314)" font-size="5" style="fill:rgb(244, 230, 30)">need</text>
+<text transform="translate(554,64)" font-size="5" style="fill:rgb(34, 139, 141)">potted</text>
+<text transform="translate(133,361)" font-size="5" style="fill:rgb(61, 78, 138)">logo</text>
+<text transform="translate(469,298) rotate(-90)" font-size="5" style="fill:rgb(42, 176, 127)">porcelain</text>
+<text transform="translate(311,217) rotate(-90)" font-size="5" style="fill:rgb(71, 14, 97)">support</text>
+<text transform="translate(663,60)" font-size="5" style="fill:rgb(71, 44, 122)">narrow</text>
+<text transform="translate(334,151) rotate(-90)" font-size="5" style="fill:rgb(88, 199, 101)">decorative</text>
+<text transform="translate(259,211)" font-size="5" style="fill:rgb(42, 118, 142)">chrome</text>
+<text transform="translate(678,10)" font-size="5" style="fill:rgb(31, 161, 135)">unique</text>
+<text transform="translate(772,129) rotate(-90)" font-size="5" style="fill:rgb(69, 56, 130)">possibly</text>
+<text transform="translate(409,223)" font-size="5" style="fill:rgb(34, 168, 132)">covered</text>
+<text transform="translate(387,108) rotate(-90)" font-size="5" style="fill:rgb(41, 175, 127)">reflective</text>
+<text transform="translate(233,54) rotate(-90)" font-size="5" style="fill:rgb(101, 203, 94)">bookshelve</text>
+<text transform="translate(442,398) rotate(-90)" font-size="5" style="fill:rgb(88, 199, 101)">workspace</text>
+<text transform="translate(174,27)" font-size="5" style="fill:rgb(63, 71, 136)">cooler</text>
+<text transform="translate(261,62)" font-size="5" style="fill:rgb(70, 8, 92)">clock</text>
+<text transform="translate(86,196) rotate(-90)" font-size="5" style="fill:rgb(31, 158, 137)">bucket</text>
+<text transform="translate(409,92)" font-size="5" style="fill:rgb(37, 133, 142)">stripe</text>
+<text transform="translate(484,62)" font-size="5" style="fill:rgb(129, 211, 77)">ceramic</text>
+<text transform="translate(504,355)" font-size="5" style="fill:rgb(67, 62, 133)">image</text>
+<text transform="translate(260,377)" font-size="5" style="fill:rgb(37, 171, 130)">indoor</text>
+<text transform="translate(148,93)" font-size="5" style="fill:rgb(42, 120, 142)">adding</text>
+<text transform="translate(20,129)" font-size="5" style="fill:rgb(37, 133, 142)">frosted</text>
+<text transform="translate(675,375)" font-size="5" style="fill:rgb(69, 55, 129)">enter</text>
+<text transform="translate(330,211)" font-size="5" style="fill:rgb(46, 179, 124)">s</text>
+<text transform="translate(476,191) rotate(-90)" font-size="5" style="fill:rgb(63, 188, 115)">warm</text>
+<text transform="translate(442,338) rotate(-90)" font-size="5" style="fill:rgb(149, 216, 64)">supporting</text>
+<text transform="translate(639,342)" font-size="5" style="fill:rgb(72, 37, 118)">tiered</text>
+<text transform="translate(170,208) rotate(-90)" font-size="5" style="fill:rgb(60, 79, 138)">partially</text>
+<text transform="translate(239,244)" font-size="5" style="fill:rgb(42, 120, 142)">flower</text>
+<text transform="translate(2,217)" font-size="5" style="fill:rgb(38, 173, 129)">stacked</text>
+<text transform="translate(153,331)" font-size="5" style="fill:rgb(181, 222, 43)">attached</text>
+<text transform="translate(351,375)" font-size="5" style="fill:rgb(244, 230, 30)">well</text>
+<text transform="translate(143,107)" font-size="5" style="fill:rgb(162, 218, 55)">ladder</text>
+<text transform="translate(422,58) rotate(-90)" font-size="5" style="fill:rgb(239, 229, 28)">setting</text>
+<text transform="translate(321,308)" font-size="5" style="fill:rgb(50, 101, 142)">Lastly</text>
+<text transform="translate(458,203) rotate(-90)" font-size="5" style="fill:rgb(50, 101, 142)">equipped</text>
+<text transform="translate(81,274) rotate(-90)" font-size="5" style="fill:rgb(43, 116, 142)">Moreover</text>
+<text transform="translate(484,284) rotate(-90)" font-size="5" style="fill:rgb(84, 197, 104)">tray</text>
+<text transform="translate(657,194)" font-size="5" style="fill:rgb(71, 46, 124)">hinged</text>
+<text transform="translate(203,22) rotate(-90)" font-size="5" style="fill:rgb(216, 226, 25)">nestled</text>
+<text transform="translate(202,389) rotate(-90)" font-size="5" style="fill:rgb(157, 217, 59)">stackable</text>
+<text transform="translate(373,42) rotate(-90)" font-size="5" style="fill:rgb(99, 203, 95)">parallel</text>
+<text transform="translate(609,301) rotate(-90)" font-size="5" style="fill:rgb(226, 228, 24)">additional</text>
+<text transform="translate(228,268) rotate(-90)" font-size="5" style="fill:rgb(34, 168, 132)">view</text>
+<text transform="translate(759,199)" font-size="5" style="fill:rgb(76, 194, 108)">step</text>
+<text transform="translate(448,383)" font-size="5" style="fill:rgb(122, 209, 81)">bright</text>
+<text transform="translate(586,38)" font-size="5" style="fill:rgb(246, 230, 32)">go</text>
+<text transform="translate(94,38)" font-size="5" style="fill:rgb(37, 172, 130)">cart</text>
+<text transform="translate(797,329) rotate(-90)" font-size="5" style="fill:rgb(31, 158, 137)">collection</text>
+<text transform="translate(748,20)" font-size="4" style="fill:rgb(34, 168, 132)">translucent</text>
+<text transform="translate(735,65)" font-size="4" style="fill:rgb(68, 191, 112)">size</text>
+<text transform="translate(493,348) rotate(-90)" font-size="4" style="fill:rgb(137, 213, 72)">adorn</text>
+<text transform="translate(719,275)" font-size="4" style="fill:rgb(134, 213, 73)">switch</text>
+<text transform="translate(613,22)" font-size="4" style="fill:rgb(33, 145, 140)">mattress</text>
+<text transform="translate(181,291)" font-size="4" style="fill:rgb(170, 220, 50)">way</text>
+<text transform="translate(662,225)" font-size="4" style="fill:rgb(223, 227, 24)">grab</text>
+<text transform="translate(377,232)" font-size="4" style="fill:rgb(72, 33, 115)">fixture</text>
+<text transform="translate(164,156)" font-size="4" style="fill:rgb(33, 165, 133)">older</text>
+<text transform="translate(117,43) rotate(-90)" font-size="4" style="fill:rgb(34, 139, 141)">forward</text>
+<text transform="translate(768,234)" font-size="4" style="fill:rgb(72, 38, 119)">cupboard</text>
+<text transform="translate(435,33)" font-size="4" style="fill:rgb(86, 198, 103)">notice</text>
+<text transform="translate(596,212)" font-size="4" style="fill:rgb(32, 147, 140)">zipper</text>
+<text transform="translate(434,51)" font-size="4" style="fill:rgb(41, 123, 142)">padded</text>
+<text transform="translate(700,29)" font-size="4" style="fill:rgb(61, 78, 138)">rich</text>
+<text transform="translate(141,355) rotate(-90)" font-size="4" style="fill:rgb(69, 55, 129)">style</text>
+<text transform="translate(481,186)" font-size="4" style="fill:rgb(42, 120, 142)">paneled</text>
+<text transform="translate(433,58)" font-size="4" style="fill:rgb(31, 150, 139)">several</text>
+<text transform="translate(352,55)" font-size="4" style="fill:rgb(49, 181, 123)">brownish</text>
+<text transform="translate(458,335)" font-size="4" style="fill:rgb(72, 193, 110)">conical</text>
+<text transform="translate(449,63)" font-size="4" style="fill:rgb(33, 142, 141)">cluster</text>
+<text transform="translate(596,328)" font-size="4" style="fill:rgb(42, 119, 142)">others</text>
+<text transform="translate(612,60)" font-size="4" style="fill:rgb(60, 79, 138)">tissue</text>
+<text transform="translate(728,193)" font-size="4" style="fill:rgb(226, 228, 24)">including</text>
+<text transform="translate(487,67)" font-size="4" style="fill:rgb(44, 114, 142)">take</text>
+<text transform="translate(638,397)" font-size="4" style="fill:rgb(216, 226, 25)">rectangle</text>
+<text transform="translate(642,377) rotate(-90)" font-size="4" style="fill:rgb(36, 170, 131)">proving</text>
+<text transform="translate(341,312)" font-size="4" style="fill:rgb(65, 66, 135)">displaying</text>
+<text transform="translate(570,310)" font-size="4" style="fill:rgb(239, 229, 28)">complement</text>
+<text transform="translate(308,60)" font-size="4" style="fill:rgb(69, 5, 89)">phone</text>
+<text transform="translate(107,75)" font-size="4" style="fill:rgb(55, 91, 141)">rug</text>
+<text transform="translate(660,207)" font-size="4" style="fill:rgb(32, 164, 134)">border</text>
+<text transform="translate(125,103)" font-size="4" style="fill:rgb(46, 110, 142)">grayish</text>
+<text transform="translate(353,227)" font-size="4" style="fill:rgb(134, 213, 73)">big</text>
+<text transform="translate(294,232) rotate(-90)" font-size="4" style="fill:rgb(64, 70, 136)">spot</text>
+<text transform="translate(510,244)" font-size="4" style="fill:rgb(165, 219, 54)">dishwasher</text>
+<text transform="translate(389,62)" font-size="4" style="fill:rgb(47, 180, 124)">fireplace</text>
+<text transform="translate(2,397)" font-size="4" style="fill:rgb(186, 222, 40)">likely</text>
+<text transform="translate(308,24)" font-size="4" style="fill:rgb(37, 172, 130)">noticed</text>
+<text transform="translate(769,305) rotate(-90)" font-size="4" style="fill:rgb(226, 228, 24)">oriented</text>
+<text transform="translate(598,260)" font-size="4" style="fill:rgb(35, 137, 142)">low</text>
+<text transform="translate(282,372)" font-size="4" style="fill:rgb(70, 192, 111)">line</text>
+<text transform="translate(648,29)" font-size="4" style="fill:rgb(78, 195, 107)">displayed</text>
+<text transform="translate(202,327)" font-size="4" style="fill:rgb(239, 229, 28)">ajar</text>
+<text transform="translate(562,30)" font-size="4" style="fill:rgb(32, 164, 134)">cream</text>
+<text transform="translate(95,99)" font-size="4" style="fill:rgb(72, 31, 112)">bowl</text>
+<text transform="translate(591,265)" font-size="4" style="fill:rgb(31, 148, 140)">scattered</text>
+<text transform="translate(307,52)" font-size="4" style="fill:rgb(205, 225, 29)">either</text>
+<text transform="translate(664,211)" font-size="4" style="fill:rgb(72, 38, 119)">restroom</text>
+<text transform="translate(722,311) rotate(-90)" font-size="4" style="fill:rgb(192, 223, 37)">completing</text>
+<text transform="translate(530,226)" font-size="4" style="fill:rgb(68, 2, 86)">pulled</text>
+<text transform="translate(657,246)" font-size="4" style="fill:rgb(96, 202, 96)">labeled</text>
+<text transform="translate(763,310)" font-size="4" style="fill:rgb(41, 123, 142)">sheet</text>
+<text transform="translate(545,293)" font-size="4" style="fill:rgb(57, 85, 140)">fire</text>
+<text transform="translate(491,22)" font-size="4" style="fill:rgb(69, 56, 130)">pushed</text>
+<text transform="translate(254,262)" font-size="4" style="fill:rgb(96, 202, 96)">entical</text>
+<text transform="translate(76,39)" font-size="4" style="fill:rgb(192, 223, 37)">ball</text>
+<text transform="translate(139,131)" font-size="4" style="fill:rgb(59, 82, 139)">distinct</text>
+<text transform="translate(47,295) rotate(-90)" font-size="4" style="fill:rgb(34, 141, 141)">decoration</text>
+<text transform="translate(687,245) rotate(-90)" font-size="4" style="fill:rgb(47, 108, 142)">staircase</text>
+<text transform="translate(7,52)" font-size="4" style="fill:rgb(31, 154, 138)">aligned</text>
+<text transform="translate(12,263) rotate(-90)" font-size="4" style="fill:rgb(82, 197, 105)">fluffy</text>
+<text transform="translate(590,395) rotate(-90)" font-size="4" style="fill:rgb(64, 69, 136)">wrinkled</text>
+<text transform="translate(777,131)" font-size="4" style="fill:rgb(72, 27, 109)">poster</text>
+<text transform="translate(12,105)" font-size="4" style="fill:rgb(69, 53, 129)">topped</text>
+<text transform="translate(454,69)" font-size="4" style="fill:rgb(67, 61, 132)">bigger</text>
+<text transform="translate(411,244)" font-size="4" style="fill:rgb(181, 222, 43)">option</text>
+<text transform="translate(613,170)" font-size="4" style="fill:rgb(40, 174, 128)">vent</text>
+<text transform="translate(235,315)" font-size="4" style="fill:rgb(31, 154, 138)">liner</text>
+<text transform="translate(718,162)" font-size="4" style="fill:rgb(231, 228, 25)">work</text>
+<text transform="translate(245,283)" font-size="4" style="fill:rgb(74, 193, 109)">point</text>
+<text transform="translate(92,221)" font-size="4" style="fill:rgb(45, 112, 142)">include</text>
+<text transform="translate(265,219)" font-size="4" style="fill:rgb(68, 58, 131)">ledge</text>
+<text transform="translate(701,350)" font-size="4" style="fill:rgb(231, 228, 25)">height</text>
+<text transform="translate(63,219) rotate(-90)" font-size="4" style="fill:rgb(34, 139, 141)">button</text>
+<text transform="translate(376,259)" font-size="4" style="fill:rgb(37, 132, 142)">outse</text>
+<text transform="translate(310,390)" font-size="4" style="fill:rgb(40, 125, 142)">host</text>
+<text transform="translate(80,335)" font-size="4" style="fill:rgb(176, 221, 47)">type</text>
+<text transform="translate(112,262)" font-size="4" style="fill:rgb(56, 88, 140)">m</text>
+<text transform="translate(701,189)" font-size="4" style="fill:rgb(55, 91, 141)">move</text>
+<text transform="translate(346,358)" font-size="4" style="fill:rgb(40, 124, 142)">pot</text>
+<text transform="translate(304,361)" font-size="4" style="fill:rgb(52, 182, 121)">turned</text>
+<text transform="translate(98,287)" font-size="4" style="fill:rgb(127, 211, 78)">tub</text>
+<text transform="translate(68,302)" font-size="4" style="fill:rgb(170, 220, 50)">tabletop</text>
+<text transform="translate(502,55)" font-size="4" style="fill:rgb(49, 103, 142)">opening</text>
+<text transform="translate(228,305) rotate(-90)" font-size="4" style="fill:rgb(31, 151, 139)">Furthermore</text>
+<text transform="translate(631,301)" font-size="4" style="fill:rgb(34, 140, 141)">greenish</text>
+<text transform="translate(334,108) rotate(-90)" font-size="4" style="fill:rgb(244, 230, 30)">indicating</text>
+<text transform="translate(696,375)" font-size="4" style="fill:rgb(202, 225, 31)">dual</text>
+<text transform="translate(752,327) rotate(-90)" font-size="4" style="fill:rgb(35, 169, 131)">complemented</text>
+<text transform="translate(534,50)" font-size="4" style="fill:rgb(55, 184, 120)">filing</text>
+<text transform="translate(86,315)" font-size="4" style="fill:rgb(44, 177, 126)">varying</text>
+<text transform="translate(655,137)" font-size="4" style="fill:rgb(41, 175, 127)">drape</text>
+<text transform="translate(623,170)" font-size="4" style="fill:rgb(234, 229, 26)">entry</text>
+<text transform="translate(225,252)" font-size="4" style="fill:rgb(32, 164, 134)">cap</text>
+<text transform="translate(583,157)" font-size="4" style="fill:rgb(202, 225, 31)">profile</text>
+<text transform="translate(228,370) rotate(-90)" font-size="4" style="fill:rgb(36, 135, 142)">foldable</text>
+<text transform="translate(279,315)" font-size="4" style="fill:rgb(31, 160, 136)">leaning</text>
+<text transform="translate(656,142)" font-size="4" style="fill:rgb(68, 1, 84)">hard</text>
+<text transform="translate(1,164)" font-size="4" style="fill:rgb(67, 61, 132)">maroon</text>
+<text transform="translate(174,142)" font-size="4" style="fill:rgb(72, 31, 112)">shelving</text>
+<text transform="translate(129,202)" font-size="4" style="fill:rgb(200, 224, 32)">keypad</text>
+<text transform="translate(450,169)" font-size="4" style="fill:rgb(31, 148, 140)">paired</text>
+<text transform="translate(701,383)" font-size="4" style="fill:rgb(69, 5, 89)">sheer</text>
+<text transform="translate(268,338)" font-size="4" style="fill:rgb(99, 203, 95)">coat</text>
+<text transform="translate(324,297) rotate(-90)" font-size="4" style="fill:rgb(244, 230, 30)">something</text>
+<text transform="translate(410,252)" font-size="4" style="fill:rgb(200, 224, 32)">six</text>
+<text transform="translate(437,200) rotate(-90)" font-size="4" style="fill:rgb(31, 162, 135)">entering</text>
+<text transform="translate(225,152)" font-size="4" style="fill:rgb(30, 155, 138)">writing</text>
+<text transform="translate(747,140) rotate(-90)" font-size="4" style="fill:rgb(50, 101, 142)">supported</text>
+<text transform="translate(783,75)" font-size="4" style="fill:rgb(72, 40, 120)">house</text>
+<text transform="translate(196,332)" font-size="4" style="fill:rgb(72, 31, 112)">rolling</text>
+<text transform="translate(228,306)" font-size="4" style="fill:rgb(50, 101, 142)">let</text>
+<text transform="translate(772,75) rotate(-90)" font-size="4" style="fill:rgb(231, 228, 25)">background</text>
+<text transform="translate(541,56)" font-size="4" style="fill:rgb(38, 130, 142)">muted</text>
+<text transform="translate(593,190)" font-size="4" style="fill:rgb(45, 178, 125)">Upon</text>
+<text transform="translate(134,251)" font-size="4" style="fill:rgb(32, 164, 134)">twin</text>
+<text transform="translate(308,4)" font-size="4" style="fill:rgb(59, 187, 117)">cutter</text>
+<text transform="translate(293,175) rotate(-90)" font-size="4" style="fill:rgb(61, 188, 116)">bedspread</text>
+<text transform="translate(375,149) rotate(-90)" font-size="4" style="fill:rgb(71, 47, 125)">illuminate</text>
+<text transform="translate(3,322)" font-size="4" style="fill:rgb(42, 118, 142)">hair</text>
+<text transform="translate(16,207) rotate(-90)" font-size="4" style="fill:rgb(34, 141, 141)">main</text>
+<text transform="translate(53,284) rotate(-90)" font-size="4" style="fill:rgb(38, 173, 129)">taller</text>
+<text transform="translate(585,136)" font-size="4" style="fill:rgb(72, 29, 111)">offer</text>
+<text transform="translate(12,314) rotate(-90)" font-size="4" style="fill:rgb(134, 213, 73)">indivual</text>
+<text transform="translate(409,123)" font-size="4" style="fill:rgb(33, 145, 140)">shell</text>
+<text transform="translate(65,94)" font-size="4" style="fill:rgb(248, 230, 33)">doorknob</text>
+<text transform="translate(274,130)" font-size="4" style="fill:rgb(139, 214, 70)">plain</text>
+<text transform="translate(246,339)" font-size="4" style="fill:rgb(70, 50, 126)">form</text>
+<text transform="translate(305,299) rotate(-90)" font-size="4" style="fill:rgb(68, 58, 131)">diagonally</text>
+<text transform="translate(38,376)" font-size="4" style="fill:rgb(31, 161, 136)">wonder</text>
+<text transform="translate(179,160) rotate(-90)" font-size="4" style="fill:rgb(31, 153, 138)">used</text>
+<text transform="translate(526,17)" font-size="4" style="fill:rgb(40, 125, 142)">bedroom</text>
+<text transform="translate(583,53)" font-size="4" style="fill:rgb(57, 86, 140)">allow</text>
+<text transform="translate(549,379) rotate(-90)" font-size="4" style="fill:rgb(56, 88, 140)">interior</text>
+<text transform="translate(468,90) rotate(-90)" font-size="4" style="fill:rgb(31, 152, 139)">showcasing</text>
+<text transform="translate(14,171)" font-size="4" style="fill:rgb(137, 213, 72)">hood</text>
+<text transform="translate(540,44) rotate(-90)" font-size="4" style="fill:rgb(53, 183, 121)">depicting</text>
+<text transform="translate(210,4)" font-size="4" style="fill:rgb(70, 192, 111)">separate</text>
+<text transform="translate(665,340) rotate(-90)" font-size="4" style="fill:rgb(72, 193, 110)">finished</text>
+<text transform="translate(608,387)" font-size="4" style="fill:rgb(69, 56, 130)">teal</text>
+<text transform="translate(698,175)" font-size="4" style="fill:rgb(176, 221, 47)">note</text>
+<text transform="translate(585,334) rotate(-90)" font-size="4" style="fill:rgb(248, 230, 33)">complete</text>
+<text transform="translate(71,67)" font-size="4" style="fill:rgb(41, 122, 142)">built</text>
+<text transform="translate(726,57) rotate(-90)" font-size="4" style="fill:rgb(35, 136, 142)">adjustable</text>
+<text transform="translate(468,217)" font-size="4" style="fill:rgb(170, 220, 50)">meeting</text>
+<text transform="translate(636,289) rotate(-90)" font-size="4" style="fill:rgb(110, 206, 88)">range</text>
+<text transform="translate(10,246)" font-size="4" style="fill:rgb(32, 146, 140)">affixed</text>
+<text transform="translate(501,254)" font-size="4" style="fill:rgb(53, 94, 141)">carpet</text>
+<text transform="translate(535,201)" font-size="4" style="fill:rgb(76, 194, 108)">mat</text>
+<text transform="translate(240,4)" font-size="4" style="fill:rgb(69, 55, 129)">empty</text>
+<text transform="translate(705,107)" font-size="4" style="fill:rgb(72, 37, 118)">shirt</text>
+</svg>
