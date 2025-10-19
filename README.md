@@ -23,7 +23,7 @@ This is an official repo for paper "Robin3D: Improving 3D Large Language Model v
 
 - Annotations and extracted features:
 
-  You can download them from [Google Drive](https://drive.google.com/drive/folders/14Si8bdWI3N5NEeVDLhmAlxilWPl0f_Wp?usp=sharing). Please check the ```scripts/config.py``` for better understanding of the files on Google Drive.
+  You can download them from [Google Drive](https://drive.google.com/drive/folders/14Si8bdWI3N5NEeVDLhmAlxilWPl0f_Wp?usp=sharing). Please check the ```scripts/config.py``` for a better understanding of the files on Google Drive.
   
   The detailed instructions are in [Chat-Scene's Preparation](https://github.com/ZzZZCHS/Chat-Scene/tree/dev/preprocess).
 
